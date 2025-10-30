@@ -1,9 +1,23 @@
-﻿namespace Assignment01
+﻿using System;
+using System.Data;
+using System.Text.RegularExpressions;
+
+namespace Assignment01
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
+            #region constraints default
+
+            // 1 --> The default constraint in C# specifies that a generic type parameter has no specific restriction (neither class nor struct).
+
+            // 2 --> It is mainly used when overriding methods or explicitly implementing interfaces to match an unconstrained base definition.
+
+            // 3 --> It helps the compiler resolve ambiguity introduced by nullable reference types.
+
+            #endregion
 
             #region Q1
 
